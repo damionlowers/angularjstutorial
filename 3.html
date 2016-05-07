@@ -2,14 +2,14 @@
 <html lang="en" ng-app="">
 <head>
 	<meta charset="UTF-8">
-	<title>AngularJS | ng-model/ng-bind</title>
+	<title>AngularJS | Welcome!</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 </head>
 
 <body>
-	<input type="text" data-ng-model="name">
-	<div data-ng-bind="name"></div>
-	
+	<div data-ng-init="language='AngularJS'">
+		{{language}}
+	</div>
 </body>
 
 </html>
